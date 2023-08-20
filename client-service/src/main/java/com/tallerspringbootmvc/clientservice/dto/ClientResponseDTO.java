@@ -1,4 +1,12 @@
 package com.tallerspringbootmvc.clientservice.dto;
 
-public class ClientResponseDTO {
+import lombok.Builder;
+
+@Builder
+public record ClientResponseDTO(
+        Long clientId,
+        Integer documentNumber,
+        String phoneNumber,
+        String email
+) {
 }
