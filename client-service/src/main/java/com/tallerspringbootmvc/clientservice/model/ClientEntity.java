@@ -18,4 +18,5 @@ public class ClientEntity {
     private Integer documentNumber;
     private String phoneNumber;
     private String email;
+    private boolean isValidated;
 }

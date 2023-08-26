@@ -4,4 +4,16 @@
     <option name="show" value="ASK" />
     <option name="description" value="" />
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/client-service/pom.xml" />
+        <option value="$PROJECT_DIR$/transaction-service/pom.xml" />
+        <option value="$PROJECT_DIR$/transfer-service/pom.xml" />
+        <option value="$PROJECT_DIR$/wallet-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" project-jdk-name="corretto-20" project-jdk-type="JavaSDK" />
 </project>

@@ -11,8 +11,8 @@
 	<groupId>com.tallerspringbootmvc</groupId>
 	<artifactId>transaction-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>transaction-service</name>
-	<description>Demo project for Spring Boot transaction-service</description>
+	<name>transfer-service</name>
+	<description>Demo project for Spring Boot transfer-service</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

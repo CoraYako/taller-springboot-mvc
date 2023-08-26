@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tallerspringbootmvc</groupId>
-	<artifactId>transfer-service</artifactId>
+	<artifactId>movement-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>transfer-service</name>
-	<description>Demo project for Spring Boot transfer-service</description>
+	<name>movement-service</name>
+	<description>Demo project for Spring Boot movement-service</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

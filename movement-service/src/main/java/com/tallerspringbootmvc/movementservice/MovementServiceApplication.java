@@ -1,13 +1,13 @@
-package com.tallerspringbootmvc.transferservice;
+package com.tallerspringbootmvc.movementservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TransferServiceApplication {
+public class MovementServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TransferServiceApplication.class, args);
+		SpringApplication.run(MovementServiceApplication.class, args);
 	}
 
 }
