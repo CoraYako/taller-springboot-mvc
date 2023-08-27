@@ -19,7 +19,7 @@ public class WalletEntity {
     private Long walletId;
 
     // pueden utilizar el ID del cliente
-    private Long clientDocumentNumber;
+    private String clientDocumentNumber;
     private BigDecimal balance;
 
     // tipo de moneda, puede ser ENUM o String

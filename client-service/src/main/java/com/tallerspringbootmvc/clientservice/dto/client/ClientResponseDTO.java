@@ -1,11 +1,11 @@
-package com.tallerspringbootmvc.clientservice.dto;
+package com.tallerspringbootmvc.clientservice.dto.client;
 
 import lombok.Builder;
 
 @Builder
 public record ClientResponseDTO(
         Long clientId,
-        Integer documentNumber,
+        String documentNumber,
         String phoneNumber,
         String email
 ) {

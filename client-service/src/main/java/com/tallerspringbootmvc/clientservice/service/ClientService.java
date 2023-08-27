@@ -1,9 +1,8 @@
 package com.tallerspringbootmvc.clientservice.service;
 
-import com.tallerspringbootmvc.clientservice.dto.ClientRequestDTO;
-import com.tallerspringbootmvc.clientservice.dto.ClientResponseDTO;
+import com.tallerspringbootmvc.clientservice.dto.client.ClientRequestDTO;
 
 public interface ClientService {
 
-    ClientResponseDTO createClient(ClientRequestDTO requestDTO);
+    void createClient(ClientRequestDTO requestDTO);
 }

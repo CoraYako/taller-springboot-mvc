@@ -15,7 +15,7 @@ public class ClientEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private Integer documentNumber;
+    private String documentNumber;
     private String phoneNumber;
     private String email;
     private boolean isValidated;
