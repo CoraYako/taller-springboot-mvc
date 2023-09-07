@@ -2,6 +2,7 @@ package com.tallerspringbootmvc.clientservice.service;
 
 import com.tallerspringbootmvc.clientservice.dto.client.ClientRequestDTO;
 import com.tallerspringbootmvc.clientservice.dto.wallet.WalletRequestDTO;
+import com.tallerspringbootmvc.clientservice.dto.wallet.WalletResponseDTO;
 import com.tallerspringbootmvc.clientservice.model.ClientEntity;
 import com.tallerspringbootmvc.clientservice.model.mapper.ClientMapper;
 import com.tallerspringbootmvc.clientservice.repository.ClientRepository;
@@ -34,5 +35,13 @@ public class ClientServiceImpl implements ClientService {
         apiClient.createWallet(walletRequestDTO);
 
         clientRepository.save(client);
+    }
+
+    @Override
+    public WalletResponseDTO getBalance(String documentNumber) {
+        if (documentNumber.trim().isEmpty())
+            throw new RuntimeException("Número de documento no válido.");
+
+        return apiClient.getBalance(documentNumber).getBody();
     }
 }
